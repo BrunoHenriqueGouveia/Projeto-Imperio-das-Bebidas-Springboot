@@ -1,0 +1,110 @@
+/* Estilos globais para garantir que o fundo cubra toda a página */
+:host {
+  display: block;
+  height: 100%;
+}
+
+body, html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+/* Container principal com fundo gradiente */
+.login-wrapper {
+  background: linear-gradient(135deg, #1d2b53 0%, #483a8c 100%);
+  min-height: 100vh;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.login-container {
+  width: 100%;
+  max-width: 450px;
+  padding: 0 15px;
+}
+
+.card {
+  border: none;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+.login-logo {
+  max-width: 150px;
+  height: auto;
+  margin: 0 auto 1rem;
+  display: block;
+}
+
+.form-control, .input-group-text {
+  border: none;
+  height: 45px;
+}
+
+.form-control:focus {
+  box-shadow: 0 0 0 3px rgba(29, 43, 83, 0.2);
+  border-color: #1d2b53;
+}
+
+.login-btn {
+  background-color: #1d2b53;
+  border-color: #1d2b53;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  padding: 0.6rem;
+  transition: all 0.3s;
+  width: 100%;
+}
+
+.login-btn:hover:not(:disabled) {
+  background-color: #483a8c;
+  border-color: #483a8c;
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.login-form .form-label {
+  font-weight: 600;
+  font-size: 0.9rem;
+  color: #444;
+  margin-bottom: 0.3rem;
+}
+
+.input-group-text {
+  background-color: #f8f9fa;
+}
+
+.input-group {
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.05);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+/* Ajustes para o card interno */
+.card-body {
+  padding: 1.5rem;
+}
+
+.mb-4 {
+  margin-bottom: 1rem !important;
+}
+
+/* Centralizar texto de copyright */
+.text-center {
+  text-align: center;
+  margin-top: 0.75rem;
+  font-size: 0.85rem;
+  color: #6c757d;
+}
