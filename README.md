@@ -113,9 +113,3 @@ Este projeto foi desenvolvido pela equipe:
 ### 🚧 Status do Projeto
 
 Projeto em desenvolvimento ativo como parte do Programa Integrador (PI) do curso de Análise e Desenvolvimento de Sistemas do Centro Universitário SENAC - Santo Amaro. Atualizações semanais.
-
-### 📞 Contato
-
-Para mais informações sobre o projeto, entre em contato através de:
-- 📧 Email: sincerev36@email.com
-- 🌐 GitHub: [imperio-das-bebidas](https://github.com/VitorGeovani/imperio-das-bebidas)
